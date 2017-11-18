@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="todo@localhost" uuid="a0f7bdf7-0ed2-4a25-8a72-2e2fd97ab16a">
+      <database-info product="PostgreSQL" version="10.0" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <introspection-schemas>todo:public</introspection-schemas>
+    </data-source>
+    <data-source name="message_store@localhost" uuid="33233f3e-05c2-469c-9f10-2e8b690fd3db">
+      <database-info product="PostgreSQL" version="10.0" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>message_store</user-name>
+      <introspection-schemas>message_store:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>
